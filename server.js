@@ -1,8 +1,8 @@
 // 引入node内置http模块
 const http = require('http');
 
-// 配置端口
-const PORT = 3000;
+// 配置端口：优先读取环境变量（部署平台用），本地默认3000
+const PORT = process.env.PORT || 3000;
 
 // 创建http服务
 const server = http.createServer((req, res) => {
