@@ -2,9 +2,9 @@
   "name": "hello-world-server",
   "version": "1.0.0",
   "description": "Hello World网站，带服务器时间",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "author": "杨景壬",
   "license": "MIT"
